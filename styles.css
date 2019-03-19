@@ -1,0 +1,66 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 120px;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 5px 12px;
+}
+
+
+tr:nth-child(even){
+    background-color: #bafdfd;
+}
+
+tr:nth-child(odd){
+    background-color: #defff9;
+}
+
+tr:nth-child(1){
+    background-color: #017bab;
+    color: white;
+}
+
+tr:nth-child(2) th,
+tr:nth-child(3) th,
+tr:nth-child(4) th,
+tr:nth-child(5) th{
+    text-align: left;
+    width: 250px;
+}
+
+fieldset {
+    width: 300px;
+}
+
+form {
+    display: flex;
+}
+
+#name:hover, #email:hover{
+    transition: 0.4s ease-in-out;
+    background-color: #bafdfd;
+}
+
+#left, #right {
+    width:45%;
+    line-height: 25px;
+}
+
+#submit {
+    margin: 7px 0 100px 250px;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
