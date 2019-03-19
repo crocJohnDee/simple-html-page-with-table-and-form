@@ -19,7 +19,7 @@ td {
 }
 
 table td, table th {
-    border: 1px groove #ddd;
+    border: 1px solid #ddd;
     padding: 5px 12px;
 }
 
@@ -76,7 +76,7 @@ form {
 }
 
 #left, #right {
-    width:45%;
+    width:50%;
     line-height: 25px;
 }
 
