@@ -16,6 +16,15 @@ table td, table th {
     padding: 5px 12px;
 }
 
+tr:nth-child(1) th:nth-child(1) {
+    border-top-left-radius: 10px;
+    border:none;
+}
+
+tr:nth-child(1) th:nth-child(4) {
+    border-top-right-radius: 10px;
+    border:none;
+}
 
 tr:nth-child(even){
     background-color: #bafdfd;
