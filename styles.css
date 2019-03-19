@@ -1,8 +1,15 @@
-h1 {
+
+body {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72,72,72);
 }
 
-
+#container{
+    width:85%;
+    margin: 0 auto;
+    background-color: #ddd;
+    padding: 15px;
+}
 table {
     border-collapse: collapse;
 }
@@ -12,18 +19,25 @@ td {
 }
 
 table td, table th {
-    border: 1px solid #ddd;
+    border: 1px groove #ddd;
     padding: 5px 12px;
 }
 
 tr:nth-child(1) th:nth-child(1) {
     border-top-left-radius: 10px;
     border:none;
+    border-bottom: 3px solid gray;;
 }
 
 tr:nth-child(1) th:nth-child(4) {
     border-top-right-radius: 10px;
     border:none;
+    border-bottom: 3px solid gray;
+}
+
+tr:first-child th:nth-child(2), tr:first-child th:nth-child(3){
+    border-top:none;
+    border-bottom: 3px solid gray;
 }
 
 tr:nth-child(even){
@@ -49,6 +63,7 @@ tr:nth-child(5) th{
 
 fieldset {
     width: 300px;
+    background-color: #ddfcf9;;
 }
 
 form {
@@ -66,7 +81,7 @@ form {
 }
 
 #submit {
-    margin: 7px 0 100px 250px;
+    margin: 15px 0 20px 250px;
     padding: 5px 10px;
     background-color: green;
     color: white;
